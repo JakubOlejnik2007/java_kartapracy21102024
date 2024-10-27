@@ -21,4 +21,8 @@ public class Pracownik {
     public boolean czyPracujeWDziale(int dzial) {
         return this.dzial == dzial;
     }
+
+    public double getPlaca() {
+        return placa;
+    }
 }
