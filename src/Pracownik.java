@@ -25,8 +25,4 @@ public class Pracownik {
     public double getPlaca() {
         return placa;
     }
-
-    public int getDzial() {
-        return dzial;
-    }
 }
