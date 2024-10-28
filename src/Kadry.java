@@ -210,10 +210,10 @@ public class Kadry {
             System.out.println(this.pracownicy_[i]);
         }
 
-        System.out.println("Średnie zarobki w firmie:\t" + this.sredniZarobek());
+        System.out.println("Średnie zarobki w firmie:\t" + String.format("%.2f", this.sredniZarobek())+ " zł");
 
         for (int dzial : this.dajDzialy()) {
-            System.out.println("Średnie zarobki w dziale " + dzial + ":\t" + this.sredniZarobek(dzial));
+            System.out.println("Średnie zarobki w dziale " + dzial + ":\t" + String.format("%.2f", this.sredniZarobek(dzial))+ " zł");
         }
     }
 }

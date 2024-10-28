@@ -60,7 +60,7 @@ public class Pracownik implements Serializable {
      */
     @Override
     public String toString() {
-        return this.imie + "\t" + this.nazwisko + "\t" + this.placa + "\t" + this.plec + "\t" + this.dzial;
+        return this.imie + "\t" + this.nazwisko + "\t" + this.plec + "\t" + this.dzial + "\t" + String.format("%.2f", this.placa) + " zł";
     }
 
     /**
